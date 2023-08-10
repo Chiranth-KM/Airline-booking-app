@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".booked">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/inria_sans"
+            android:gravity="center"
+            android:text="Hurray! Ticket booked"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="210dp"
+            android:layout_height="86dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/img_1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="44dp"
+            android:fontFamily="@font/inria_sans"
+            android:gravity="center"
+            android:text="Date of journey: 5-january -2023"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="44dp"
+            android:fontFamily="@font/inria_sans"
+            android:gravity="center"
+            android:text="Class: Economy"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="104dp"
+            android:fontFamily="@font/inria_sans"
+            android:gravity="center"
+            android:text="Flight: Air New Zealand"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="159dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/round_button"
+            android:fontFamily="@font/inria_sans"
+            android:gravity="center"
+            android:text="Back to search page" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
